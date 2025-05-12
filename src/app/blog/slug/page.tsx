@@ -14,9 +14,9 @@ export default function BlogPostPage({ params }: Props) {
             <p className="text-gray-500 text-sm mb-4">Published on May 11, 2025 by CUBE Ship Assist Admin</p>
             
             {/* TODO: Fetch and display actual blog post content based on the slug */}
-            <p>
-              This is a placeholder for the blog post content. The actual content for the post with slug "{params.slug}" will be displayed here.
-            </p>
+           <p>
+             This is a placeholder for the blog post content. The actual content for the post with slug &quot;{params.slug}&quot; will be displayed here.
+           </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
